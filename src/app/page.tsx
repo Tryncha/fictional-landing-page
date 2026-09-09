@@ -5,6 +5,9 @@ import Stats from '@/sections/stats';
 import Testimonials from '@/sections/testimonials';
 import Subscription from '@/sections/subscription';
 import Books from '@/sections/books';
+import Map from '@/sections/map';
+import Contact from '@/sections/contact';
+import Footer from '@/sections/footer';
 
 const HomePage = () => {
   return (
@@ -17,6 +20,9 @@ const HomePage = () => {
         <Testimonials />
         <Books />
         <Subscription />
+        <Map />
+        <Contact />
+        <Footer />
       </main>
     </>
   );
