@@ -8,6 +8,7 @@ import Books from '@/sections/books';
 import Map from '@/sections/map';
 import Contact from '@/sections/contact';
 import Footer from '@/sections/footer';
+import ScrollToTopButton from '@/components/scroll-to-top-button';
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };
