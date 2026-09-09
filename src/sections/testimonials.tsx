@@ -16,12 +16,12 @@ const Testimonials = () => {
   }, [page, pageCount]);
 
   return (
-    <section className="flex max-w-7xl flex-col gap-4 py-8 text-justify">
-      <h2 className="text-2xl font-semibold">Check out some testimonials!</h2>
+    <section className="flex w-full flex-col gap-4 p-8 text-justify xl:px-40">
+      <h2 className="text-center text-2xl font-semibold xl:text-left">Check out some testimonials!</h2>
 
       <div className="overflow-hidden">
         <div
-          className="flex gap-16 transition-transform duration-700 ease-in-out"
+          className="flex transition-transform duration-700 ease-in-out"
           style={{
             width: `${pageCount * 100}%`,
             transform: `translateX(-${page * (100 / pageCount)}%)`
@@ -47,11 +47,11 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-2">
+      <div className="mt-4 flex items-center justify-center gap-2">
         {TESTIMONIALS_PAGES.map((_, index) => (
           <button
             key={index}
-            className={`${page === index ? 'bg-cyan-700' : 'bg-cyan-300'} size-3 rounded-full hover:cursor-pointer`}
+            className={`${page === index ? 'bg-cyan-700' : 'bg-cyan-200'} size-3 rounded-full hover:cursor-pointer`}
             onClick={() => setPage(index)}
           />
         ))}
