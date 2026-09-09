@@ -8,8 +8,11 @@ const Subscription = () => {
   const emailId = useId();
 
   return (
-    <section className="flex w-full justify-center gap-4 bg-gray-100 py-8 text-justify">
-      <form className="flex flex-col gap-4">
+    <section className="flex w-full flex-col items-center justify-center gap-1 py-8 text-justify">
+      <h2 className="text-2xl font-semibold">Subscribe to get every update!</h2>
+      <p className="text-center">Don&apos;t miss any release.</p>
+
+      <form className="mt-8 flex flex-col gap-4">
         <div className="flex flex-col">
           <label
             htmlFor={firstNameId}
