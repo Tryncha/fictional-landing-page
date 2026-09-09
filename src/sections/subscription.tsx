@@ -89,7 +89,7 @@ const Subscription = () => {
 
             <button
               type="submit"
-              className="rounded-full bg-cyan-700 px-4 py-2 text-lg font-medium text-white hover:cursor-pointer"
+              className="rounded-full bg-cyan-700 px-4 py-2 text-lg font-medium text-white transition-transform hover:scale-105 hover:cursor-pointer"
             >
               Subscribe!
             </button>

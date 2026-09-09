@@ -47,7 +47,9 @@ const Header = () => {
         <span className="font-semibold text-white hover:cursor-pointer">Reviews</span>
         <span className="font-semibold text-white hover:cursor-pointer">Pricing</span>
         <span className="font-semibold text-white hover:cursor-pointer">Author</span>
-        <button className="rounded-full bg-cyan-50 px-4 py-2 font-medium hover:cursor-pointer">Buy Now!</button>
+        <button className="rounded-full bg-cyan-50 px-4 py-2 font-medium transition-transform hover:scale-105 hover:cursor-pointer">
+          Buy Now!
+        </button>
       </div>
 
       {/* <button className="hover:cursor-pointer">

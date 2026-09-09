@@ -17,10 +17,10 @@ const Hero = () => {
         </p>
 
         <div className="flex gap-4">
-          <button className="rounded-full bg-cyan-700 px-4 py-2 text-base font-medium text-white hover:cursor-pointer 2xl:px-8 2xl:py-4 2xl:text-lg">
+          <button className="rounded-full bg-cyan-700 px-4 py-2 text-base font-medium text-white transition-transform hover:scale-105 hover:cursor-pointer 2xl:px-8 2xl:py-4 2xl:text-lg">
             Discover the books
           </button>
-          <button className="flex items-center gap-2 rounded-full bg-cyan-700 px-4 py-2 text-base font-medium text-white hover:cursor-pointer 2xl:px-8 2xl:py-4 2xl:text-lg">
+          <button className="flex items-center gap-2 rounded-full bg-cyan-700 px-4 py-2 text-base font-medium text-white transition-transform hover:scale-105 hover:cursor-pointer 2xl:px-8 2xl:py-4 2xl:text-lg">
             <span> Buy the Latest Release </span>
             <ShoppingCart
               size={20}
