@@ -24,9 +24,33 @@ const Header = () => {
         <BooksIcon size={36} />
         <h2 className="text-3xl font-bold text-white">Rowan Evercrest</h2>
       </div>
-      <div>
+
+      {/* Hyperlinks */}
+      <div className="flex items-center gap-8">
+        <a
+          href="#about-section"
+          className="font-semibold text-white hover:cursor-pointer"
+        >
+          About
+        </a>
+        <a
+          href="#books-section"
+          className="font-semibold text-white hover:cursor-pointer"
+        >
+          Books
+        </a>
+        <a
+          href="#subscription-section"
+          className="font-semibold text-white hover:cursor-pointer"
+        >
+          Contact
+        </a>
+        <span className="font-semibold text-white hover:cursor-pointer">Reviews</span>
+        <span className="font-semibold text-white hover:cursor-pointer">Pricing</span>
+        <span className="font-semibold text-white hover:cursor-pointer">Author</span>
         <button className="rounded-full bg-cyan-50 px-4 py-2 font-medium hover:cursor-pointer">Buy Now!</button>
       </div>
+
       <button className="hover:cursor-pointer">
         <CircleQuestionMark color="#fff" />
       </button>

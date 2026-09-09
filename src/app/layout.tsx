@@ -2,7 +2,7 @@ import './globals.css';
 
 const RootLayout = ({ children }: LayoutProps<'/'>) => {
   return (
-    <html>
+    <html className="scroll-smooth">
       <body>{children}</body>
     </html>
   );

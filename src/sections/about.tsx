@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <section className="flex max-w-7xl flex-col gap-4 py-8 text-justify">
+    <section
+      id="about-section"
+      className="flex max-w-7xl flex-col gap-4 py-8 text-justify"
+    >
       <h2 className="text-2xl font-semibold">About</h2>
       <p>
         Rowan Evercrest is an award-winning epic fantasy author celebrated for creating vast interconnected worlds,

@@ -22,8 +22,8 @@ const HomePage = () => {
         <Subscription />
         <Map />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 };
