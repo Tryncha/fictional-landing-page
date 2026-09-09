@@ -7,6 +7,7 @@ export const BooksIcon = ({ size }: { size: number }) => {
       width={size}
       height={size}
       viewBox="0 0 512 512"
+      aria-hidden="true"
     >
       <g id="SVGRepo_iconCarrier">
         <style>{'.st0{fill:#fff}'}</style>

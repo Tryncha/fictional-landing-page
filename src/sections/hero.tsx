@@ -6,6 +6,16 @@ const Hero = () => {
       {/* Hero Image */}
       <div className="absolute inset-0 -z-10 bg-[url(/writter-hero-image.png)] bg-cover bg-right opacity-20 xl:block xl:mask-l-from-40% xl:bg-center xl:opacity-100" />
 
+      {/* Lighter version using next/image component */}
+      {/* <Image
+        src="/writter-hero-image.webp"
+        alt="Rowan Evercrest, epic fantasy author, sitting at his writing desk with his Nexusverse novels"
+        fill
+        priority
+        sizes="100vw"
+        className="-z-10 object-cover object-right opacity-20 xl:mask-l-from-40% xl:object-center xl:opacity-100"
+      /> */}
+
       <div className="mx-8 flex flex-col gap-8 xl:ml-40 xl:max-w-sm 2xl:max-w-3xl">
         <h2 className="text-4xl font-semibold 2xl:text-6xl">
           &quot;Every legend begins with an impossible choice.&quot;
