@@ -3,6 +3,7 @@ import Hero from '@/sections/hero';
 import About from '@/sections/about';
 import Stats from '@/sections/stats';
 import Testimonials from '@/sections/testimonials';
+import Subscription from '@/sections/subscription';
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
         <About />
         <Stats />
         <Testimonials />
+        <Subscription />
       </main>
     </>
   );
