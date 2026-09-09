@@ -4,7 +4,7 @@ const About = () => {
       id="about-section"
       className="flex w-full flex-col gap-4 p-8 text-justify xl:px-40"
     >
-      <h2 className="text-2xl font-semibold">About</h2>
+      <h2 className="text-2xl font-semibold">About Rowan Evercrest</h2>
       <p>
         Rowan Evercrest is an award-winning epic fantasy author celebrated for creating vast interconnected worlds,
         meticulously crafted magic systems, and unforgettable character journeys. Since the release of his debut novel,{' '}

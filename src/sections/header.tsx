@@ -21,7 +21,7 @@ const Header = () => {
     >
       <div className="flex items-center justify-center gap-4 xl:gap-2">
         <BooksIcon size={32} />
-        <h2 className="text-4xl font-bold text-white xl:text-3xl">Rowan Evercrest</h2>
+        <h1 className="text-4xl font-bold text-white xl:text-3xl">Rowan Evercrest</h1>
       </div>
 
       {/* Hyperlinks */}

@@ -11,7 +11,7 @@ const Books = async () => {
       id="books-section"
       className="flex w-full flex-col gap-8 bg-gray-100 p-8 text-justify xl:px-40"
     >
-      <h2 className="text-center text-2xl font-semibold xl:text-left">Notable books</h2>
+      <h2 className="text-center text-2xl font-semibold xl:text-left">Notable books by Rowan Evercrest</h2>
       <div className="flex flex-wrap items-center justify-center gap-8 xl:grid xl:grid-cols-6">
         {books.map((book) => (
           <Image
